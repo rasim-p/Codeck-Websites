@@ -1,5 +1,5 @@
 body {
-  background: url(wp1.jpg) no-repeat center center fixed;
+  background: url(wp11.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -12,30 +12,59 @@ div {
 
 hr {
   border-width: 1.4px;
-  border-color: gray;
+  border-color: black gray;
   width: 20%;
   border-spacing: 5px;
   border-style: solid none none;
 }
 
-p {
+ #id{
   padding-top: 100px;
   text-align: center;
   font-size: 20px;
   margin-top: 0px;
-  font-style: oblique;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.b{
+  margin-top: 1;
 }
 
 .a{
   font-family: 'Open Sans Condensed', sans-serif;
-  line-height: 1.5;
-
+  line-height: 1.1;
+  letter-spacing: -4px;
+  margin-bottom: 5px;
 }
 
 .a1 {
   font-size: 8vw;
+  color: #1b1c25;
 }
 
 .a2 {
-  font-size: 4.12vw;
+  font-size: 4.5vw;
+  color: #1b1c25;
+}
+
+.button {
+	background-color:transparent;
+	border-radius:29px;
+	border:1px solid #0d0f0e;
+	display:relative;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px  5px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:transparent;
+}
+.button:active {
+	position:relative;
+	top:1px;
 }

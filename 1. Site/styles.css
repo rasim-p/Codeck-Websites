@@ -1,0 +1,41 @@
+body {
+  background: url(wp1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+div {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  padding-top: 6%;
+}
+
+hr {
+  border-width: 1.4px;
+  border-color: gray;
+  width: 20%;
+  border-spacing: 5px;
+  border-style: solid none none;
+}
+
+p {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0px;
+  font-style: oblique;
+}
+
+.a{
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.5;
+
+}
+
+.a1 {
+  font-size: 8vw;
+}
+
+.a2 {
+  font-size: 4.12vw;
+}

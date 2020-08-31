@@ -3,9 +3,56 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <title>We Will Launch Soon</title>
+    <link rel="icon" href="icon.png">
+    <script type="text/javascript">
+    const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
+
+let countDown = new Date('Dec 14, 2020 00:00:00').getTime(),
+  x = setInterval(function() {
+
+    let now = new Date().getTime(),
+        distance = countDown - now;
+
+    document.getElementById('days').innerText = Math.floor(distance / (day)),
+      document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+      document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+      document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+
+  }, second)
+    </script>
+
   </head>
   <body>
+
+<div class="split left">
+  <div class="centered">
+    <div class="container">
+        <h1>To Launch:</h1>
+      <ul>
+        <li><span id="days"></span>days</li>
+        <li><span id="hours"></span>Hours</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li><span id="seconds"></span>Seconds</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+      <img class="imagg" src="projecty.png" alt="">
+      <p id="a">STAY TUNED</p>
+      <p id="c"><b>We Will Launch Soon</b></p>
+      <p id="b">Subscribe to get notification as soon as we launch!</p>
+
+      <input id="x" type="text" name="" value="Enter your email">
+      <input id="y" type="button" name="" value="NOTIFY ME">
+  </div>
+</div>
 
   </body>
 </html>

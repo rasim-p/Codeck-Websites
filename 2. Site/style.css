@@ -1,0 +1,64 @@
+body{
+  background  : url(img/e5.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+
+.a{
+  color: #f6f5f5;
+  font-family: 'Nunito', sans-serif;
+
+  font-size: 2.7rem;
+}
+
+.a1{
+  padding-top: 10%;
+  padding-left: 30%;
+}
+
+.a2{
+  padding-left: 48%;
+}
+
+.c{
+  position: relative;
+  margin-bottom: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.cc img{
+  display: inline-block;
+  width: 2%;
+   /*   margin-top: */
+  padding-left: 2.3%
+}
+
+form{
+  margin-left: 30%;
+  margin-top: 25%;
+}
+
+#email {
+
+    border: solid #f6f5f5;
+    background-color: #f6f5f5;
+    border-radius: 18px;
+    height: 25px;
+    width: 200px;
+
+}
+
+#subscribe {
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    background-color: #8d93ab;
+    border: solid white;
+    color: white;
+    margin-left: -30px;
+    border-radius: 18px;
+}

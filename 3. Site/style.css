@@ -38,9 +38,7 @@ body {
   padding: 0;
 }
 
-h1 {
-  font-weight: normal;
-}
+
 
 li {
   display: inline-block;
@@ -48,6 +46,10 @@ li {
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
+}
+
+.hi{
+  white-space: nowrap;
 }
 
 li span {
@@ -90,6 +92,7 @@ body {
 .imgg{
   width: 25%;
   height: 25%;
+  margin-bottom: 10%;
 }
 
 #a{
@@ -105,19 +108,79 @@ body {
 
 #c{
   letter-spacing: -1px;
-  font-size: 2.2rem;
+  font-size: 3.5rem;
   font-family: 'Anton', sans-serif;
+  margin-left: 0px;
+  margin-right: 0px;
+  white-space: nowrap; /*this is the line which
+                        helps me to restrict my
+                        writing to one line */
 }
 
 #x{
   margin-top: 20px;
-  weight:10px;
-  height: 30px;
-  border-radius: 20%;
-  border-color: gray;
-
+  width:  300px;
+  height: 50px;
+  border-radius: 20px;
+  border-color: #ebecf1;
+  background-color: lightblue;
+  border:1.5px;
+  border-style: solid;
+  padding-left: 30px;
+  padding-right:5px;
+  margin-top: 10%;
+  color: gray;
 }
 
 #y{
+  border-radius: 30px;
+  border-color: lightblue;
+  background-color: lightblue;
+  border-style: solid ;
+  weight: 50px;
+  height: 50px;
+  margin-left: 10px;
+  padding-left: 15px;
+  padding-right:15px;
+  font-size: 0.8rem;
+  color: black;
+}
 
+.social-media img{
+  display: inline-block;
+  width: 7%;
+  margin-top: 10%;
+}
+
+.social-media{
+  position: relative;
+  margin-bottom: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.ap img{
+  padding-left: 5px;
+  padding-right: 5px;
+  color: gray;
+  position: relative;
+}
+
+.live-chat{
+  position: relative;
+  margin-bottom: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.live-chat img{
+  display: inline-block;
+  width: 7%;
+  float: right;
 }

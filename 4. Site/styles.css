@@ -43,49 +43,38 @@ body{
   letter-spacing: 0.2rem;
 }
 
-.z1{
+.z{
   position: relative;
   display: inline-block;
   top: -45px;
+  color: black;
+  font-size: 18px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f6f6f6;
+}
+
+#z1{
   left: 150px;
-  font-size: 18px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.z2{
-  position: relative;
-  display: inline-block;
-  top: -45px;
+#z2{
   left: 190px;
-  font-size: 18px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.z3{
-  position: relative;
-  display: inline-block;
-  top: -45px;
+#z3{
   left: 230px;
-  font-size: 18px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.z4{
-  position: relative;
-  display: inline-block;
-  top: -45px;
+#z4{
   left: 260px;
-  font-size: 18px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.z5{
-  position: relative;
-  display: inline-block;
-  top: -45px;
+#z5{
   left: 300px;
-  font-size: 18px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .x1{
@@ -150,8 +139,73 @@ body{
 .search{
   position: relative;
   display: inline-block;
-  top: -25px;
+  top: -28px;
   left: 120px;
   width: 2%;
 
+}
+
+.phone{
+  position: relative;
+  display: block;
+  top: 168px;
+  width: 22%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  top: 17px;
+  font-family: 'Krona One', sans-serif;
+  font-size: 40px;
+}
+
+hr{
+  border-style: solid none none;
+  border-color: black;
+  border-width: 5px;
+  border-spacing: 3px;
+  width: 20%;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.c1{
+  margin-bottom: 5px;
+}
+
+.c2{
+  margin-top: 5px;
+}
+
+.midder{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: gray;
+}
+
+.q{
+  display: inline-block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.rich img{
+  position: relative;
+  width: 20px;
+  display: inline-block;
+}
+
+.poor img{
+  position: relative;
+  width: 20px;
+  display: inline-block;
 }

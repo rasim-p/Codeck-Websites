@@ -237,7 +237,7 @@ hr{
   position: relative;
   display: block;
   top: 108px;
-  width: 22%;
+  width: 45%;
   margin-left: auto;
   margin-right: auto;
   opacity: 0.9;
@@ -274,9 +274,96 @@ hr{
   text-align: center;
   }
 
+.g:hover{
+  background-color: #ffa372;
+}
+
+  .split-left{
+    float: left;
+    width: 25%;
+    height: 300px;
+  }
+
+  .split-middle{
+    float: left;
+    width: 50%;
+    height: 300px;
+  }
+
+  .split-right{
+    float: right;
+    width: 25%;
+    height: 300px;
+  }
+
   #f1{
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    border: black;
+    height: 60px;
+    width: 60px;
+    border: red;
+    border-style: solid;
+    transform: rotate(45deg);
+    float: left;
+    left: 230px;
+    top: 440px;
+  }
+
+  #f2{
+    height: 60px;
+    width: 60px;
+    border: green;
+    border-style: solid;
+    transform: rotate(45deg);
+    float: left;
+    left: 230px;
+    top: 560px;
+  }
+
+  #f3{
+    height: 60px;
+    width: 60px;
+    border: blue;
+    border-style: solid;
+    transform: rotate(45deg);
+    float: left;
+    left: 230px;
+    top: 680px;
+  }
+
+  #f4{
+    height: 60px;
+    width: 60px;
+    border: red;
+    border-style: solid;
+    transform: rotate(45deg);
+    float: left;
+    left: 1125px;
+    top: 440px;
+  }
+
+  #f5{
+    height: 60px;
+    width: 60px;
+    border: green;
+    border-style: solid;
+    transform: rotate(45deg);
+    float: left;
+    left: 1125px;
+    top: 560px;
+  }
+
+  #f6{
+    height: 60px;
+    width: 60px;
+    border: blue;
+    border-style: solid;
+    transform: rotate(45deg);
+    float: left;
+    left: 1125px;
+    top: 680px;
+  }
+
+  .fonito{
+    position: relative;
+    width: 60%;
+    transform: rotate(-45deg);
   }

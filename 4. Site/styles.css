@@ -236,7 +236,7 @@ hr{
 .phone{
   position: relative;
   display: block;
-  top: 108px;
+  top: 68px;
   width: 45%;
   margin-left: auto;
   margin-right: auto;
@@ -299,71 +299,175 @@ hr{
   #f1{
     height: 60px;
     width: 60px;
-    border: red;
+    border: black;
     border-style: solid;
     transform: rotate(45deg);
     float: left;
     left: 230px;
     top: 440px;
+    background-color: #e89f71;
   }
 
   #f2{
     height: 60px;
     width: 60px;
-    border: green;
+    border: black;
     border-style: solid;
     transform: rotate(45deg);
     float: left;
     left: 230px;
     top: 560px;
+    background-color: #e89f71;
   }
 
   #f3{
     height: 60px;
     width: 60px;
-    border: blue;
+    border: black;
     border-style: solid;
     transform: rotate(45deg);
     float: left;
     left: 230px;
     top: 680px;
+    background-color: #e89f71;
   }
 
   #f4{
     height: 60px;
     width: 60px;
-    border: red;
+    border: black;
     border-style: solid;
     transform: rotate(45deg);
     float: left;
     left: 1125px;
     top: 440px;
+    background-color: #e89f71;
   }
 
   #f5{
     height: 60px;
     width: 60px;
-    border: green;
+    border: black;
     border-style: solid;
     transform: rotate(45deg);
     float: left;
     left: 1125px;
     top: 560px;
+    background-color: #e89f71;
   }
 
   #f6{
     height: 60px;
     width: 60px;
-    border: blue;
+    border: black;
     border-style: solid;
     transform: rotate(45deg);
     float: left;
     left: 1125px;
     top: 680px;
+    background-color: #e89f71;
+  }
+
+  .k1{
+    position: relative;
+    display: inline-block;
+    left: 300px;
+    top: 40px;
+    width: 270px;
+  }
+
+  .k2{
+    position: relative;
+    display: inline-block;
+    left: 300px;
+    top: 50px;
+    width: 270px;
+  }
+
+  .k3{
+    position: relative;
+    display: inline-block;
+    left: 350px;
+    top: 65px;
+    width: 270px;
+  }
+
+  .k4{
+    position: relative;
+    display: inline-block;
+    left: -300px;
+    top: 40px;
+    width: 270px;
+  }
+
+  .k5{
+    position: relative;
+    display: inline-block;
+    left: -300px;
+    top: 50px;
+    width: 270px;
+  }
+
+  .k6{
+    position: relative;
+    display: inline-block;
+    left: -250px;
+    top: 60px;
+    width: 270px;
+  }
+  p{
+    font-weight: bolder;
   }
 
   .fonito{
     position: relative;
-    width: 60%;
-    transform: rotate(-45deg);
+    display: inline-block;
+    top: 25px;
+    left: 241.5px;
+    width: 12%;
+  }
+
+  .lapotipo{
+    position: relative;
+    display: inline-block;
+    top: 44px;
+    left: 240.5px;
+    width: 12%;
+  }
+
+  .appli{
+    position: relative;
+    display: inline-block;
+    top: 60px;
+    left: -35px;
+    width: 12%;
+  }
+
+  .star{
+    position: relative;
+    display: inline-block;
+    top: 25px;
+    left: 62px;
+    width: 12%;
+  }
+
+  .fly{
+    position: relative;
+    display: inline-block;
+    top: 44px;
+    left: 55px;
+    width: 12%;
+  }
+
+  .support{
+    position: relative;
+    display: inline-block;
+    top: 60px;
+    left: -210px;
+    width: 12%;
+  }
+
+    .n{
+      color: #white;
+      text-shadow: white 0px 0px 15px; 
   }

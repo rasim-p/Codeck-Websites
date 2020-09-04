@@ -1,0 +1,35 @@
+body{
+  background: no-repeat center fixed;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.hey{
+  position: absolute;
+  width: 1440px;
+  height: 150px;
+  background-color: gray;
+  opacity: 0.4;
+  margin-top: 0px;
+}
+
+.porto{
+  position: relative;
+  display: inline-block;
+  width: 13%;
+  left: 50px;
+  top: 30px;
+}
+
+/*
+.m{
+  position: relative;
+  display: inline-block;
+}
+
+#a1{
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 300px;
+}

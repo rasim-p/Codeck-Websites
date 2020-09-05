@@ -31,6 +31,7 @@ body{
   display: inline-block;
   text-decoration: none;
   color: inherit;
+  top: -20px;
 }
 
 .k:hover{
@@ -59,10 +60,13 @@ body{
   top: 11px;
   text-decoration: none;
   color: inherit;
+  top: -5px;
+  color: #43658b;
+  font-weight: bold;
 }
 
 .kk:hover{
-  color:
+  color: #4e89ae;
 }
 
 #b1{
@@ -96,7 +100,7 @@ body{
 .kkk{
   position: relative;
   display: inline-block;
-  top: 20px;
+  top: -30px;
   left: 700px;
 }
 
@@ -105,15 +109,19 @@ body{
 }
 
   #c1 img{
-    width: 15%
+    width: 15%;
+    left: 50px;
+
 }
 
   #c2 img{
-    width: 15%
+    width: 15%;
+    left: auto;
 }
 
   #c3 img{
-    width: 15%
+    width: 15%;
+    left: auto;
 }
 
 .whale{
@@ -121,5 +129,6 @@ body{
   display: inline-block;
   margin-top: 0;
   width: 1440px;
-  top: 500px;
+  top: -10px;
+  opacity: 0.9;
 }

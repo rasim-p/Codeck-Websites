@@ -44,13 +44,25 @@ button{
 
 #a4{
   left: 839px;
+  padding:5px 5px 5px 5px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.search{
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  top: -280px;
+  left: 1120px;
 }
 
 .navbar{
   overflow: hidden;
   background-color: white;
   height: 60px;
-  padding-top: 20pX;
+  padding-top: 40pX;
   margin-left: 0;
   margin-right: 0px;
   padding-right: 200px;
@@ -117,54 +129,90 @@ button{
 }
 
 .whale{
-  position: relative;
+  position: absolute;
   display: inline-block;
   margin-top: 0;
   width: 1440px;
-  top: 30px;
+  top: 144px;
   opacity: 0.85;
 }
 
-.kkk{
-  position: absolute;
+.social-media{
+  position: relative;
   display: inline-block;
-  top: 10px
+  width: 18px;
+  height: 18px;
+  left: 1250px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-radius: 100%
 }
-
-.c1 img{
-  width: 15%;
-  left: 50px;
-
-}
-
-.c2 img{
-  width: 15%;
-  left: 100px;
-  top: 40px;
-}
-
-.c3 img{
-  width: 15%;
-  left: 100px;
-}
-
-/*
-body{
-  background: no-repeat center fixed;
-  background-size: cover;
-  margin-top: 0;
-  margin-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-
 
 .social-media:hover{
+  background-color: gray;
+}
+
+#v1{
+  top: -212px;
+}
+
+#v2{
+  top: -210px;
+}
+
+#v3{
+  top: -210px;
+}
+
+.split-right, .split-left{
+  position: relative;
+  display: inline-block;
+  opacity: 0.8;
+  height: 380px;
+  width: 500px;
+  top: 54px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 215px;
+}
+
+.split-left{
+  background-color: white;
+  opacity: 0.5;
+}
+
+.split-right{
 
 }
 
+.split{
+  height: 100%;
+  width: 50%;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
+.left{
+  left: 0;
+}
 
+.right{
+  right: 0;
+}
 
-*/
+.centered{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+form{
+  position: 
+  opacity: 1
+  ;
+}

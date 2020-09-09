@@ -179,7 +179,7 @@ button{
 
 .split-left{
   background-color: white;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .split-right{
@@ -201,6 +201,7 @@ button{
 
 .right{
   right: 0;
+
 }
 
 .centered{
@@ -212,7 +213,144 @@ button{
 }
 
 form{
-  position: 
-  opacity: 1
-  ;
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+}
+
+#w1{
+  line-height: 0.01rem;
+  padding-top: 2px;
+  margin-top: 2px;
+  top: -54px;
+}
+
+#w2{
+
+}
+
+.x1{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 17px;
+  color: #d6e0f0;
+
+}
+
+.x2{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 55px;
+  color: white;
+}
+
+.x3{
+  font-size: 17px;
+  color: #d6e0f0;
+}
+
+.q1{
+  position: relative;
+  left: -155px;
+  font-size: 30px;
+  top: -10px;
+}
+
+.q2{
+  position: relative;
+  left: -120px;
+  top: -20px;
+}
+
+.q3{
+  position: relative;
+  left: 22px;
+  top: -20px;
+}
+
+.q4{
+  position: relative;
+  left: -50px;
+  top: -18px;
+}
+
+.q5{
+  position: relative;
+  top: -18px;
+}
+
+.q6{
+  position: relative;
+  left: -197px;
+  top: -20px;
+}
+
+.q7{
+  position: relative;
+  left: -24px;
+  height: 60px;
+  width: 386px;
+  top: -18px;
+  resize: none;
+}
+
+.q8{
+  position: relative;
+  left: -177px;
+  top: -20px;
+}
+
+.q9{
+  position: relative;
+  left: -24px;
+  height: 60px;
+  width: 386px;
+  top: -18px;
+  resize: none;
+}
+
+.btn{
+  position: relative;
+  left: -165px;
+  top: -20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: #a2d5f2;
+  color: #07689f;
+}
+
+.btn:hover{
+  color: white;
+  background-color: #07689f;
+}
+
+.useless{
+  position: absolute;
+  margin-top: 0;
+  width: 1440px;
+  height: 100px;
+  top: 607px;
+  float: left;
+  opacity: 0.85;
+  background-color: black;
+  text-align: center;
+}
+
+.fi{
+  font-size: 20px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: white;
+  }
+
+.se{
+  color: white;
+}
+
+.dif{
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #4e89ae;
+  font-style: italic;
+
 }

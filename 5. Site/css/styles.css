@@ -54,7 +54,7 @@ button{
   display: inline-block;
   width: 18px;
   height: 18px;
-  top: -280px;
+  top: -470px;
   left: 1120px;
 }
 
@@ -150,19 +150,22 @@ button{
 }
 
 .social-media:hover{
-  background-color: gray;
+  background-color: lightblue;
+  width: 18px;
+  height: 18px;
+
 }
 
 #v1{
-  top: -212px;
+  top: -412px;
 }
 
 #v2{
-  top: -210px;
+  top: -410px;
 }
 
 #v3{
-  top: -210px;
+  top: -410px;
 }
 
 .split-right, .split-left{
@@ -180,6 +183,7 @@ button{
 .split-left{
   background-color: white;
   opacity: 0.7;
+  left: 100px;
 }
 
 .split-right{
@@ -223,10 +227,11 @@ form{
   padding-top: 2px;
   margin-top: 2px;
   top: -54px;
+  left: 100px;
 }
 
 #w2{
-
+  left:
 }
 
 .x1{
@@ -328,31 +333,40 @@ form{
 
 .useless{
   position: absolute;
-  margin: 0px, auto, 0px, auto;
   width: 1440px;
   height: 100px;
   top: 607px;
-  float: left;
   opacity: 0.85;
   background-color: black;
-  text-align: center;
 }
 
 .fi{
-  display: contents;
+  position: relative;
+  display: inline-block;
   font-size: 20px;
   font-family: 'Nanum Gothic', sans-serif;
   color: white;
-  }
+  opacity: 0.8;
+  top: -100px;
+}
 
 .se{
-  color: white;
-  left: -20px;
+  position: relative;
+  display: inline-block;
+  color: gray;
+  opacity: 0.8;
+  left: -100px;
 }
 
 .dif{
   font-family: 'Gloria Hallelujah', cursive;
   color: #4e89ae;
   font-style: italic;
+}
 
+.batın{
+  position: relative;
+  display: inline-block;
+  left: -100px;
+  top: -100px;
 }

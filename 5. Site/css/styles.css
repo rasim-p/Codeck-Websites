@@ -328,7 +328,7 @@ form{
 
 .useless{
   position: absolute;
-  margin-top: 0;
+  margin: 0px, auto, 0px, auto;
   width: 1440px;
   height: 100px;
   top: 607px;
@@ -339,6 +339,7 @@ form{
 }
 
 .fi{
+  display: contents;
   font-size: 20px;
   font-family: 'Nanum Gothic', sans-serif;
   color: white;
@@ -346,6 +347,7 @@ form{
 
 .se{
   color: white;
+  left: -20px;
 }
 
 .dif{
